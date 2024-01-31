@@ -1,0 +1,451 @@
+<section class="home">
+  <div class="hometext">
+    <h1>Swap for change, Ride FutureEV</h1>
+    <p>
+      Our expansive ecosystem, to serve all your rides - for everyone,
+      everywhere. This is the future!
+    </p>
+  </div>
+  <video loop muted autoplay>
+    <source src="../../../assets/Video/video editted.mp4" type="video/mp4" />
+  </video>
+  <div class="arrow bounce"></div>
+</section>
+
+<section class="ecosystem">
+  <h1>Never be on the backseat of <span>Revolution</span></h1>
+  <p>Be in the frontline to the Electric Future with FutureEV</p>
+
+  <div class="NumbersDiv">
+    <div class="singleDiv">
+      <h1 [countUp]="cities" [options]="opts" (complete)="doThisOnComplete()">
+        0
+      </h1>
+      <p>CITIES Covered</p>
+    </div>
+
+    <div class="singleDiv">
+      <h1 [countUp]="swaps" [options]="opts" (complete)="doThisOnComplete()">
+        0
+      </h1>
+      <p>Distance Travelled</p>
+    </div>
+
+    <div class="singleDiv">
+      <h1 [countUp]="vehicles" [options]="opts" (complete)="doThisOnComplete()">
+        0
+      </h1>
+      <p>VEHICLES On road</p>
+    </div>
+
+    <div class="singleDiv">
+      <h1 [countUp]="co2" [options]="opts" (complete)="doThisOnComplete()">
+        0
+      </h1>
+      <p>CO2 EMISSIONS Saved</p>
+    </div>
+  </div>
+</section>
+
+<section class="appInfo" id="appInfo">
+  <h1>
+    Effortlessly <span>Digital</span>, Effortlessly <span>Futuristic</span>
+  </h1>
+  <p>INTRODUCING THE <span>FUTURE EV</span> MOBILE APP</p>
+
+  <div class="phoneAndSteps row">
+    <div class="phone col-lg-4">
+      <img src="../../../assets/Phonewith glow with logo.png" alt="phone" />
+    </div>
+
+    <div class="steps col-lg-8">
+      <!--Step-->
+
+      <div class="step visible">
+        <div class="circleAndFoots">
+          <div class="circle">
+            <img src="../../../assets/downloading.png" alt="" />
+          </div>
+
+          <!--<div class="foots">
+            <img src="../../../assets/Footstep.png" alt="" />
+            <br />
+            <img src="../../../assets/Footstep.png" alt="" />
+          </div>-->
+          <div class="path"></div>
+        </div>
+
+        <p><b>Download our FutureEV app from your app store</b></p>
+      </div>
+
+      <!--Step End-->
+
+      <!--Step-->
+
+      <div class="step">
+        <div class="circleAndFoots">
+          <div class="circle">
+            <img src="../../../assets/downloading.png" alt="" />
+          </div>
+
+          <div class="path"></div>
+        </div>
+
+        <p><b>Find the nearest FutureEV station to you</b></p>
+      </div>
+
+      <!--Step End-->
+
+      <!--Step-->
+
+      <div class="step">
+        <div class="circleAndFoots">
+          <div class="circle">
+            <img src="../../../assets/downloading.png" alt="" />
+          </div>
+
+          <div class="path"></div>
+        </div>
+
+        <p>
+          <b
+            >Book your ride as per your need - we offer customised plans for
+            diverse users
+          </b>
+        </p>
+      </div>
+
+      <!--Step End-->
+
+      <!--Step-->
+
+      <div class="step">
+        <div class="circleAndFoots">
+          <div class="circle">
+            <img src="../../../assets/downloading.png" alt="" />
+          </div>
+
+          <div class="path"></div>
+        </div>
+
+        <p><b>Activate your bike with the app and Go!</b></p>
+      </div>
+
+      <!--Step End-->
+
+      <!--Step-->
+
+      <div class="step">
+        <div class="circleAndFoots">
+          <div class="circle">
+            <img src="../../../assets/downloading.png" alt="" />
+          </div>
+          <div class="path"></div>
+        </div>
+
+        <p>
+          <b
+            >Never worry about losing charge, stay updated on battery status
+            with live notifications.</b
+          >
+        </p>
+      </div>
+
+      <!--Step End-->
+    </div>
+  </div>
+</section>
+
+<section class="products" id="products">
+  <h1>Discover our Products</h1>
+
+  <div class="slider">
+    <ul>
+      <li class="sliderActive productNav" productNumber="1">Product 1</li>
+      <li class="productNav" productNumber="2">Product 2</li>
+      <li class="productNav" productNumber="3">Product 3</li>
+    </ul>
+
+    <div class="allProducts">
+      <!--Product-->
+      <div class="row product product1 productVisible">
+        <div class="col-lg-4 productLeft">
+          <div
+            class="imgBox1 imgBox"
+            style="background-image: url(../../../assets/Products/Bikes.png)"
+          ></div>
+        </div>
+
+        <div class="col-lg-8 " style="display: flex; justify-content: center; align-items: center;"> 
+          <div class="productRight">
+            <h1>EV GO</h1>
+            <p>Cycle - with assisted peddling, enjoy breezy rides and no fatigue</p>
+          </div>
+        </div>
+
+
+      </div>
+
+      <!--Product-->
+      <div class="row product product2">
+        <div class="col-lg-4 productLeft">
+          <div
+            class="imgBox1 imgBox"
+            style="
+              background-image: url(../../../assets/Products/light.png);
+            "
+          ></div>
+        </div>
+
+        <div class="col-lg-8 " style="display: flex; justify-content: center; align-items: center;"> 
+          <div class="productRight">
+            <h1>EV Light</h1>
+            <p><b>Can Travel <span>100 </span> Km on one charge</b></p>
+
+            <p><b><span>6</span> s Swap Time</b></p>
+
+            <p>Low Speed - zip through traffic and never worry about getting there on time </p>
+          </div>
+        </div>
+      </div>
+
+      <!--Product-->
+      <div class="row product product3">
+        <div class="col-lg-4 productLeft">
+          <div
+            class="imgBox1 imgBox"
+            style="background-image: url(../../../assets/Products/NEW\ SCOOTERss.png)"
+          ></div>
+        </div>
+
+        <div class="col-lg-8 " style="display: flex; justify-content: center; align-items: center;"> 
+          <div class="productRight">
+            <h1>EV PRO</h1>
+            <p><b>Can go upto <span>110</span> Km/hr.</b></p>
+
+            <p><b><span>6</span> s Swap Time</b></p>
+
+            <p>High Speed - for your long journeys and far destinations, an ecofriendly ride</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--<section class="lifeCycle">
+  <div class="data">
+    <div class="dataText">
+      <h1>
+        <b [countUp]="distance" [options]="opts" (complete)="doThisOnComplete()"
+          >100</b
+        >
+        Km
+      </h1>
+      <p>Distance travelled in one Cycle</p>
+    </div>
+
+    <div class="line"></div>
+
+    <div class="dataText">
+      <h1>
+        <b [countUp]="swapTime" [options]="opts" (complete)="doThisOnComplete()"
+          >5</b
+        >
+        hours
+      </h1>
+      <p>of one battery swap cycle</p>
+    </div>
+  </div>
+
+  <button class="lightButton">Read More</button>
+</section>-->
+
+<section class="testimonialsOuter" id="testimonials">
+  <h1 style="color: white">Hear What our Customers Have to Say</h1>
+
+  <div class="slider">
+    <input type="radio" name="testimonial" id="t-1" />
+    <input type="radio" name="testimonial" id="t-2" />
+    <input type="radio" name="testimonial" id="t-3" checked />
+    <input type="radio" name="testimonial" id="t-4" />
+    <input type="radio" name="testimonial" id="t-5" />
+    <div class="testimonials mb-8">
+      <label class="item" for="t-1">
+        <div class="mycard">
+          <div
+            class="cardImg"
+            style="background-image: url(../../../assets/Testimonials/Rishi\ Kumar\ Rai.jpeg)"
+          ></div>
+          <div class="cardText">
+            <img src="../../../assets/inverted-commas.png" alt="comma" />
+            <p>
+              Overall, I'm quite satisfied with it. It feels like a significant
+              jump from my regular 2-wheeler, in terms of price per kilometre
+              and it definitely satisfies my demands for something compact,
+              zippy, and light for navigating the city. If that fits your
+              requirements, I would recommend it!
+            </p>
+            <span
+              ><b>Rishi Kumar Rai</b> <br />
+              Civil Engineer - AAR Buildcon</span
+            >
+          </div>
+        </div>
+      </label>
+
+      <label class="item" for="t-2">
+        <div class="mycard">
+          <div
+            class="cardImg"
+            style="background-image: url(../../../assets/Testimonials/Nishkarsh\ bareja.enc)"
+          ></div>
+          <div class="cardText">
+            <img src="../../../assets/inverted-commas.png" alt="comma" />
+            <p>
+              I love the convenience of swapping out the battery every time I
+              need a re-charge. The hours I spent waiting for my old scooter to
+              get charged is now better utilised.
+            </p>
+            <span
+              ><b>Nishkarsh Bareja</b> <br />
+              Co-Founder - Samaavesh</span
+            >
+          </div>
+        </div>
+      </label>
+      <label class="item" for="t-3">
+        <div class="mycard">
+          <div
+            class="cardImg"
+            style="background-image: url(../../../assets/Testimonials/Siddharth\ kappor.jpeg)"
+          ></div>
+          <div class="cardText">
+            <img src="../../../assets/inverted-commas.png" alt="comma" />
+            <p>
+              FutureEV e-cycles are a very convenient way for me to run my
+              errands in the city, earlier I had to walk 6 kms and waste 40 mins
+              every week, now its just a few minutes and the tasks are done. The
+              app is very efficient.
+            </p>
+            <span
+              ><b>Siddharth Kapoor</b> <br />
+              Co-Founder - Samaavesh</span
+            >
+          </div>
+        </div>
+      </label>
+      <label class="item" for="t-4">
+        <div class="mycard">
+          <div
+            class="cardImg"
+            style="background-image: url(../../../assets/Testimonials/Utkarsh\ bareja.jpg)"
+          ></div>
+          <div class="cardText">
+            <img src="../../../assets/inverted-commas.png" alt="comma" />
+            <p>
+              The high-speed scooter is a very energy efficient way to commute.
+              I especially admire the swappable battery technology. Very happy
+              with the product
+            </p>
+            <span
+              ><b>Utkarsh Bareja</b> <br />
+              Software Engineer/Web Developer - Nagarro</span
+            >
+          </div>
+        </div>
+      </label>
+      <label class="item" for="t-5">
+        <div class="mycard">
+          <div
+            class="cardImg"
+            style="background-image: url(../../../assets/Products/Bikes.png)"
+          ></div>
+          <div class="cardText">
+            <img src="../../../assets/inverted-commas.png" alt="comma" />
+            <p>
+              Used them for the first time on our vacation, the scooter is very
+              handy, they have multiple stations to drop them off and I never
+              worried about re-fueling during the day. Made the trip super
+              memorable!
+            </p>
+            <span
+              ><b>XYZ</b> <br />
+              ABC</span
+            >
+          </div>
+        </div>
+      </label>
+    </div>
+    <div class="dots">
+      <label for="t-1"></label>
+      <label for="t-2"></label>
+      <label for="t-3"></label>
+      <label for="t-4"></label>
+      <label for="t-5"></label>
+    </div>
+  </div>
+</section>
+
+<section class="partners container" id="partners">
+  <h1>Our Partners</h1>
+
+  <div class="partnersList">
+    <div class="partner">
+      <img src="../../../assets/Partners/Gogoro.png" alt="partner" />
+    </div>
+
+    <div class="partner">
+      <img src="../../../assets/Partners/Seal_of_Uttar_Pradesh.svg.png" alt="partner" />
+    </div>
+
+    <div class="partner">
+      <img src="../../../assets/Partners/AgraNobg.png" alt="partner" />
+    </div>
+
+    <div class="partner">
+      <img src="../../../assets/Partners/government-of-goa-logo.png" alt="partner" />
+    </div>
+
+    <div class="partner">
+      <img src="../../../assets/Partners/b_logo.png" alt="partner" />
+    </div>
+
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="logoAndSocials">
+    <div class="footerLogo">
+      <img src="../../../assets/FEZ.png" alt="logo" />
+
+      <div class="socials">
+        <a href="https://www.facebook.com/futureevnow" target="_blank"
+          ><img src="../../../assets/Socials/facebook white.png" alt=""
+        /></a>
+        <a href="https://www.instagram.com/futureevnow/" target="_blank"
+          ><img src="../../../assets/Socials/instagram-white-icon.webp" alt=""
+        /></a>
+        <a href="https://www.linkedin.com/company/futureev/mycompany/" target="_blank"
+          ><img src="../../../assets/Socials/linkedin white.png" alt=""
+        /></a>
+        <a href="https://twitter.com/FutureEVnow" target="_blank"><img src="../../../assets/Socials/X white.png" alt="" /></a>
+      </div>
+    </div>
+
+    <div class="contactUs">
+      <h1>Contact Us</h1>
+      <p><a style="color: #ffc905;" href = "mailto: admin@futureev.in">admin&#64;futureev.in</a>
+        <br>
+        Janpath Metro Station, New Delhi-110001,
+        India</p>
+    </div>
+  </div>
+
+  <hr />
+
+  <p style="text-align: center">
+    © 2024 FutureEv. An Electric Tomorrow.
+  </p>
+</footer>
